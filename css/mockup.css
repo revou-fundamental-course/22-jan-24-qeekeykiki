@@ -1,0 +1,64 @@
+.button-navigation {
+  background-color: white;
+  border: 1px solid;
+  color: black;
+  cursor: pointer;
+  float: left;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+.button-navigation:hover {
+  background-color: black;
+  color: white;
+}
+
+.flexbox-container-navigation {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: space-between;
+}
+
+.flexbox-container-home {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: space-between;
+}
+
+.flexbox-container-package {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: space-around;
+}
+
+.flexbox-navigation {
+  align-self: center;
+}
+
+.flexbox-form {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.text.start {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.nav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
